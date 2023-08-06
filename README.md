@@ -1,4 +1,13 @@
 # kernel-dev
+## Setup
+### VSCode
+Setup:
+- Use and modify the profile "kernel-dev" for this project
+### Compilation
+Required packages:
+```sh
+$ sudo dnf install kernel-devel kernel-headers
+```
 ## Learning resources
 ### The Linux Kernel Module Programming Guide
 Info
