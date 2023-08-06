@@ -9,7 +9,7 @@ int init_module(void)
 
 void cleanup_module(void)
 {
-	pr_info("Goodbye World.");
+	pr_info("Goodbye World.\n");
 }
 
 MODULE_LICENSE("GPL");
